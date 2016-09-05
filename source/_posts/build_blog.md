@@ -8,7 +8,7 @@ title: 使用GitHub Pages和Hexo快速搭建个人博客
 ## 上传ssh key到github
 这里有两种方式可以上传ssh key到github，一种是使用github的[windows客户端][1]。
 下载后按照指示安装，打开客户端
-![ssh1][1]点击红框内的设置按钮，然后选择setting
+![ssh1]点击红框内的设置按钮，然后选择setting
 
 使用自己的github账号登陆，然后打开git bash，输入
 ```
@@ -76,7 +76,7 @@ git push origin hexo:hexo
 [2]: https://hexo.io/zh-cn/docs/
 [3]: https://disqus.com
 [4]: http://duoshuo.com/
-[succ]: http://oczidrtiz.bkt.clouddn.com/ssh1.png
+[ssh1]: http://oczidrtiz.bkt.clouddn.com/ssh1.png
 [succ]: http://oczidrtiz.bkt.clouddn.com/hexo1.png
 [config]: http://oczidrtiz.bkt.clouddn.com/hexo_config1.png
 [hexo_server]: http://oczidrtiz.bkt.clouddn.com/hexo_server.png
