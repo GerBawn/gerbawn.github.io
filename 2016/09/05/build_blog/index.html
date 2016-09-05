@@ -13,18 +13,18 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="前言为了记录自己的学习过程，决定开始写个人博客，经过一晚上的折腾，最终决定使用github pages和hexo的个人博客系统，特将整个搭建过程记录下来，同时也作为博客的第一篇文章发表。注：本文已默认读者拥有一个github账号，并了解git的常用操作。
 上传ssh key到github这里有两种方式可以上传ssh key到github，一种是使用github的windows客户端。下载后按照指示">
-<meta property="og:image" content="https://github-windows.s3.amazonaws.com/GitHubSetup.exe">
+<meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/ssh1.png">
 <meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/hexo1.png">
 <meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/hexo_config1.png">
 <meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/hexo_server.png">
 <meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/hexo_default.png">
 <meta property="og:image" content="http://oczidrtiz.bkt.clouddn.com/hexo_test.png">
-<meta property="og:updated_time" content="2016-09-05T15:51:17.895Z">
+<meta property="og:updated_time" content="2016-09-05T15:53:17.979Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用GitHub Pages和Hexo快速搭建个人博客">
 <meta name="twitter:description" content="前言为了记录自己的学习过程，决定开始写个人博客，经过一晚上的折腾，最终决定使用github pages和hexo的个人博客系统，特将整个搭建过程记录下来，同时也作为博客的第一篇文章发表。注：本文已默认读者拥有一个github账号，并了解git的常用操作。
 上传ssh key到github这里有两种方式可以上传ssh key到github，一种是使用github的windows客户端。下载后按照指示">
-<meta name="twitter:image" content="https://github-windows.s3.amazonaws.com/GitHubSetup.exe">
+<meta name="twitter:image" content="http://oczidrtiz.bkt.clouddn.com/ssh1.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -62,9 +62,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Søk"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -96,7 +96,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>为了记录自己的学习过程，决定开始写个人博客，经过一晚上的折腾，最终决定使用github pages和hexo的个人博客系统，特将整个搭建过程记录下来，同时也作为博客的第一篇文章发表。<br>注：本文已默认读者拥有一个github账号，并了解git的常用操作。</p>
-<h2 id="上传ssh-key到github"><a href="#上传ssh-key到github" class="headerlink" title="上传ssh key到github"></a>上传ssh key到github</h2><p>这里有两种方式可以上传ssh key到github，一种是使用github的<a href="https://github-windows.s3.amazonaws.com/GitHubSetup.exe" target="_blank" rel="external">windows客户端</a>。<br>下载后按照指示安装，打开客户端<br><img src="https://github-windows.s3.amazonaws.com/GitHubSetup.exe" alt="ssh1">点击红框内的设置按钮，然后选择setting</p>
+<h2 id="上传ssh-key到github"><a href="#上传ssh-key到github" class="headerlink" title="上传ssh key到github"></a>上传ssh key到github</h2><p>这里有两种方式可以上传ssh key到github，一种是使用github的<a href="https://github-windows.s3.amazonaws.com/GitHubSetup.exe" target="_blank" rel="external">windows客户端</a>。<br>下载后按照指示安装，打开客户端<br><img src="http://oczidrtiz.bkt.clouddn.com/ssh1.png" alt="ssh1">点击红框内的设置按钮，然后选择setting</p>
 <p>使用自己的github账号登陆，然后打开git bash，输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div></pre></td></tr></table></figure></p>
 <p>出现下图就说明成功了。<br>另外一种方法是使用命令行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen</div></pre></td></tr></table></figure></p>
 <h2 id="在github上建立博客仓库"><a href="#在github上建立博客仓库" class="headerlink" title="在github上建立博客仓库"></a>在github上建立博客仓库</h2><p>github pages默认使用用户名.github.io仓库的master分支做为内容，所以首先需要建立一个仓库，像我就需要建立一个gerbawn.github.io的仓库，建立仓库的步骤在此就不详述了。</p>
@@ -112,7 +112,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/09/05/build_blog/" data-id="cisq86xl70000woeogep8vmni" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/09/05/build_blog/" data-id="cisq88i3z0000w4eotfsnm4fp" class="article-share-link">Partager</a>
       
       
     </footer>
@@ -136,7 +136,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Arkiv</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li></ul>
     </div>
@@ -146,7 +146,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Siste innlegg</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
@@ -167,7 +167,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2016 John Doe<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
